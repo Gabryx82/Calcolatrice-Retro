@@ -131,7 +131,7 @@ public class CalcolatriceGUI extends JFrame {
             }
         } else
         {
-            if (!operazioni.contains(op))
+            if (!numeri.isEmpty())
             { // Aggiungi l'operazione solo se non è già presente
                 operazioni.add(op);
                 textArea1.append(" " + op + " ");
